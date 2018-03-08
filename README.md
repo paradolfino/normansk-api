@@ -24,3 +24,5 @@ Things you may want to cover:
 * ...
 
 ##### 07/03/2018: 19:41 - 19:47:pool[generate models for word, phrase, and category]
+
+##### 07/03/2018: 19:47 - 19:52:pool[implement validations and relationships for models]
