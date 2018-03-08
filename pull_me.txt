@@ -1,0 +1,8 @@
+
+[generate new api project, create models, create relationships/validations, create controllers, create json_response concern]
+### 07/03/2018[19:41 - 19:56]:
+* generate models for word, phrase, and category
+* implement validations and relationships for models
+* create word, category, and phrase controllers
+* implement json_response concern for controllers
+
