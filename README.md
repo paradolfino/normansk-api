@@ -38,3 +38,5 @@ Things you may want to cover:
 ##### 08/03/2018: 19:29 - 19:31:pool[create REST actions for categories controller]
 
 ##### 08/03/2018: 19:31 - 19:34:pool[set up routes]
+
+##### 08/03/2018: 19:34 - 19:39:pool[set up views for show/index]
