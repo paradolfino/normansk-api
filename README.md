@@ -40,3 +40,5 @@ Things you may want to cover:
 ##### 08/03/2018: 19:31 - 19:34:pool[set up routes]
 
 ##### 08/03/2018: 19:34 - 19:39:pool[set up views for show/index]
+
+##### 08/03/2018: 19:39 - 19:48:pool[make changes to controllers]
