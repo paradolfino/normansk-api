@@ -44,3 +44,5 @@ Things you may want to cover:
 ##### 08/03/2018: 19:39 - 19:48:pool[make changes to controllers]
 
 ##### 08/03/2018: 19:48 - 19:53:pool[fix migrations for models]
+
+##### 08/03/2018: 19:54 - 19:59:pool[fix validations for models]
