@@ -32,3 +32,5 @@ Things you may want to cover:
 ##### 07/03/2018: 19:54 - 19:56:pool[implement json_response concern for controllers]
 
 ##### 08/03/2018: 19:28 - 19:29:pool[create REST actions for words controller]
+
+##### 08/03/2018: 19:29 - 19:29:pool[create REST actions for phrases controller]
