@@ -34,3 +34,5 @@ Things you may want to cover:
 ##### 08/03/2018: 19:28 - 19:29:pool[create REST actions for words controller]
 
 ##### 08/03/2018: 19:29 - 19:29:pool[create REST actions for phrases controller]
+
+##### 08/03/2018: 19:29 - 19:31:pool[create REST actions for categories controller]
