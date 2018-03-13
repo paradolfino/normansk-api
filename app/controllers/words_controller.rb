@@ -31,7 +31,7 @@ class WordsController < ApplicationController
 def show
     respond_to do |format|
       format.html { render :show}
-      :check_phrases
+      check_phrases
     end
 end
 
@@ -40,7 +40,7 @@ end
   def update
 
     if @word.update(word_params)
-      :check_phrases
+      check_phrases
     else
       json_response(@word.errors, :unprocessable_entity) 
     end
