@@ -31,11 +31,7 @@ class WordsController < ApplicationController
 def show
     respond_to do |format|
       format.html { render :show}
-      if @word.phrases
-        format.json { json_response(@word.to_json(:include => :phrases)) }
-      else
-        format.json { json_response(@word)  }
-      end
+      
     end
 end
 
@@ -66,5 +62,13 @@ end
 
   def set_word
     @word = Word.find(params[:id])
+  end
+
+  def check_phrases
+    if @word.phrases
+      format.json { json_response(@word.to_json(:include => :phrases)) }
+    else
+      format.json { json_response(@word)  }
+    end
   end
 end
