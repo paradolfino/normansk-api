@@ -31,7 +31,7 @@ class WordsController < ApplicationController
 def show
     respond_to do |format|
       format.html { render :show}
-      
+      :check_phrases
     end
 end
 
