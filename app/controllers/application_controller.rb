@@ -1,4 +1,4 @@
 class ApplicationController < ActionController::API
-    include MimeResponds
+    include ActionController::MimeResponds
     include Response
 end
