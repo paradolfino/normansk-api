@@ -1,5 +1,5 @@
 class WordsController < ApplicationController
-    before_action :set_word, only: [:show, :update, :destroy, :check_phrases]
+    before_action :set_word, only: [:show, :update, :destroy]
 
 
   def index
@@ -31,7 +31,11 @@ class WordsController < ApplicationController
 def show
     respond_to do |format|
       format.html { render :show}
-      check_phrases
+      if @word.phrases
+        format.json { json_response(@word.to_json(:include => :phrases)) }
+      else
+        format.json { json_response(@word)  }
+      end
     end
 end
 
@@ -40,7 +44,11 @@ end
   def update
 
     if @word.update(word_params)
-      check_phrases
+      if @word.phrases
+        format.json { json_response(@word.to_json(:include => :phrases)) }
+      else
+        format.json { json_response(@word)  }
+      end
     else
       json_response(@word.errors, :unprocessable_entity) 
     end
@@ -52,14 +60,6 @@ end
 
     head :no_content 
 
-  end
-
-  def check_phrases
-    if @word.phrases
-      format.json { json_response(@word.to_json(:include => :phrases)) }
-    else
-      format.json { json_response(@word)  }
-    end
   end
 
   private
