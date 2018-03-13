@@ -45,9 +45,9 @@ end
 
     if @word.update(word_params)
       if @word.phrases
-        format.json { json_response(@word.to_json(:include => :phrases)) }
+        json_response(@word.to_json(:include => :phrases)) 
       else
-        format.json { json_response(@word)  }
+        json_response(@word)  
       end
     else
       json_response(@word.errors, :unprocessable_entity) 
