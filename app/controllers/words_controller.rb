@@ -1,5 +1,5 @@
 class WordsController < ApplicationController
-    before_action :set_word, only: [:show, :update, :destroy]
+    before_action :set_word, only: [:show, :update, :destroy, :check_phrases]
 
 
   def index
