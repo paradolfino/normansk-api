@@ -31,7 +31,7 @@ class WordsController < ApplicationController
 def show
     respond_to do |format|
       format.html { render :show}
-      format.json { json_response(@word.to_json(:include => :phrases)) }
+      format.json { json_response(@word.to_json(:include => :phrases)) if @word.phrases }
     end
 end
 
