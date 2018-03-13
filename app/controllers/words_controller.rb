@@ -57,7 +57,7 @@ end
   private
 
   def word_params
-    params.permit(:english, :normansk, :tense, :type, :category_id)
+    params.permit(:english, :normansk, :tense, :category_id)
   end
 
   def set_word
