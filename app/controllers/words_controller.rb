@@ -54,6 +54,14 @@ end
 
   end
 
+  def check_phrases
+    if @word.phrases
+      format.json { json_response(@word.to_json(:include => :phrases)) }
+    else
+      format.json { json_response(@word)  }
+    end
+  end
+
   private
 
   def word_params
@@ -64,11 +72,5 @@ end
     @word = Word.find(params[:id])
   end
 
-  def check_phrases
-    if @word.phrases
-      format.json { json_response(@word.to_json(:include => :phrases)) }
-    else
-      format.json { json_response(@word)  }
-    end
-  end
+  
 end
