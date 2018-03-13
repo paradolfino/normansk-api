@@ -46,3 +46,5 @@ Things you may want to cover:
 ##### 08/03/2018: 19:48 - 19:53:pool[fix migrations for models]
 
 ##### 08/03/2018: 19:54 - 19:59:pool[fix validations for models]
+
+##### 12/03/2018: 19:41 - 19:45:pool[fix respond_to error/test json req/res]
