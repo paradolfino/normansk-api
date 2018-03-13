@@ -40,7 +40,7 @@ end
   def update
 
     if @word.update(word_params)
-      json_response(@word.to_json(:include => :phrases)) 
+      :check_phrases
     else
       json_response(@word.errors, :unprocessable_entity) 
     end
