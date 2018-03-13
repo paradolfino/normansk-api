@@ -32,7 +32,7 @@ def show
     respond_to do |format|
       format.html { render :show}
       if @word.phrases
-        format.json { json_response(@word.to_json(:include => :phrases)) }
+        format.json { json_response(@word) }
       else
         format.json { json_response(@word)  }
       end
