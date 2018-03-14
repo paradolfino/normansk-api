@@ -1,1 +1,6 @@
 
+[fix some issues with controller not displaying json for phrases under words - discovered that it was due to model relationship not existing - tested REST requests susccessfully]
+### 13/03/2018[19:20 - 19:29]:
+* fixing words controller and word model to work with request
+* test json requests
+

@@ -50,3 +50,5 @@ Things you may want to cover:
 ##### 12/03/2018: 19:41 - 19:45:pool[fix respond_to error/test json req/res]
 
 ##### 13/03/2018: 19:20 - 19:23:pool[fixing words controller and word model to work with request]
+
+##### 13/03/2018: 19:23 - 19:29:pool[test json requests]
