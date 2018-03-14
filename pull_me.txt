@@ -1,12 +1,6 @@
 
-[set up routes, views, controller REST actions, fix errors in controllers and validations in model, migrate tables]
-### 08/03/2018[19:28 - 19:59]:
-* create REST actions for words controller
-* create REST actions for phrases controller
-* create REST actions for categories controller
-* set up routes
-* set up views for show/index
-* make changes to controllers
-* fix migrations for models
-* fix validations for models
+[fix some issues with controller not displaying json for phrases under words - discovered that it was due to model relationship not existing - tested REST requests susccessfully]
+### 13/03/2018[19:20 - 19:29]:
+* fixing words controller and word model to work with request
+* test json requests
 
