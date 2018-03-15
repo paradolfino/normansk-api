@@ -1,1 +1,5 @@
 
+[implement friendly_ids for words]
+### 14/03/2018[19:36 - 19:50]:
+* begin implement of friendly_id
+
