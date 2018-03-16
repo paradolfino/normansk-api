@@ -4,5 +4,5 @@ Rails.application.routes.draw do
     resources :phrases
   end
   resources :categories
-  root 'statics#home'
+  root '/', to: 'statics/home'
 end
