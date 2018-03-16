@@ -62,3 +62,5 @@ Things you may want to cover:
 ##### 15/03/2018: 19:36 - 19:38:pool[debug react installation]
 
 ##### 15/03/2018: 19:38 - 19:40:pool[test react component on home page]
+
+##### 15/03/2018: 19:40 - 19:41:pool[create static controller]
