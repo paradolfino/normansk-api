@@ -1,5 +1,10 @@
 
-[implement friendly_ids for words]
-### 14/03/2018[19:36 - 19:50]:
-* begin implement of friendly_id
+[begin test with react-rails]
+### 15/03/2018[19:30 - 19:52]:
+* set up react-rails
+* create static root page
+* debug react installation
+* test react component on home page
+* create static controller
+* test react component on statics view
 
