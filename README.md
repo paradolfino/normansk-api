@@ -56,3 +56,5 @@ Things you may want to cover:
 ##### 14/03/2018: 19:36 - 19:50:pool[begin implement of friendly_id]
 
 ##### 15/03/2018: 19:30 - 19:34:pool[set up react-rails]
+
+##### 15/03/2018: 19:34 - 19:36:pool[create static root page]
