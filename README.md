@@ -54,3 +54,5 @@ Things you may want to cover:
 ##### 13/03/2018: 19:23 - 19:29:pool[test json requests]
 
 ##### 14/03/2018: 19:36 - 19:50:pool[begin implement of friendly_id]
+
+##### 15/03/2018: 19:30 - 19:34:pool[set up react-rails]
