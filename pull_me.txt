@@ -1,1 +1,10 @@
 
+[begin test with react-rails]
+### 15/03/2018[19:30 - 19:52]:
+* set up react-rails
+* create static root page
+* debug react installation
+* test react component on home page
+* create static controller
+* test react component on statics view
+
